@@ -64,20 +64,14 @@ options{
  
  
  success{
- mail bcc: 'devopstrainingblr@gmail.com', body: '''BuildOver!....
+
 
  Regards,
- Mithun Technologies,
- 9980923226''', cc: 'devopstrainingblr@gmail.com', from: '', replyTo: '', subject: 'BuildOver!!', to: 'devopstrainingblr@gmail.com'
+
  }
  
  failure{
- mail bcc: 'devopstrainingblr@gmail.com', body: '''BuildOver!....
 
- Regards,
- Mithun Technologies,
- 9980923226''', cc: 'devopstrainingblr@gmail.com', from: '', replyTo: '', subject: 'BuildOver!!', to: 'devopstrainingblr@gmail.com'
- }
  
  }
 }
