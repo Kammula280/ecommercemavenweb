@@ -16,7 +16,7 @@ spec:
         app: mavenwebapp
     spec:
       containers:
-      - image: kammula280/mavenwebapp: 1
+      - image: kammula280/mavenwebapp:1
         name: mavenwebapppod
         ports:
         - containerPort: 8080 
