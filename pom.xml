@@ -94,21 +94,17 @@
 		</dependency>
 		
 	</dependencies>
-	
 	<distributionManagement>
-	
 	    <repository>
 	      <id>nexus</id>
-	      <name>my nexus release repository</name>
-	      <url>http://18.189.194.228:8081/repository/flipkart-release/</url>
+	      <name>spring boot releases Nexus Repository</name>
+	      <url>http://13.233.244.101:8081/repository/springbootversion/</url>
 	    </repository>
-	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>my nexus snapshot repository</name>
-	      <url>http://18.189.194.228:8081/repository/flipkart-snapshot/</url>
+	      <name>spring boot Snapshot Nexus Repository </name>
+	      <url>http://13.233.244.101:8081/repository/springbootsnapshot/</url>
 	    </snapshotRepository>
-	    
 	</distributionManagement>
 	
 	<build>
