@@ -97,13 +97,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>spring boot releases Nexus Repository</name>
-	      <url>http://13.233.244.101:8081/repository/springbootversion/</url>
+	      <name>Maven web app releases Nexus Repository</name>
+	      <url>http://13.233.244.101:8081/repository/mavenwebapprelease/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>spring boot Snapshot Nexus Repository </name>
-	      <url>http://13.233.244.101:8081/repository/springbootsnapshot/</url>
+	      <name>Maven web app snapshot Nexus Repository </name>
+	      <url>http://13.233.244.101:8081/repository/mavenwebappsnapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
